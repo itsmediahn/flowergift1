@@ -1,5 +1,5 @@
 const title = document.querySelector('.title')
-const text = 'From CGP Angkatan 10 LUTRA Kelas 10.121.SULSEL'.split('')
+const text = 'From CGP Angkatan 10 Luwu Utara'.split('')
 for (let index = 0; index < text.length; index++) {
   if (text[index] !== ' ') {
     title.innerHTML += `<span>${text[index]}<span/>`
